@@ -16,7 +16,7 @@
     echo "<br><br> Atribuição multiplicação: ".($d = $d *= 5);
     echo "<br><br> Atribuição módulo: ".($e = $e %= 3);
     echo "<br><br> Atribuição concatenação: ".($f = $f .= " Marques");
-
+ 
     $p = 20;
     $p -= ( $p * 10/100 ); //EXEMPLO DESCONTO
     echo "<br><br> Produto com desconto: R$".number_format($p, 2, ",", ".");
