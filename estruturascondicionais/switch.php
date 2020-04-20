@@ -31,6 +31,30 @@
 
     echo "O resultado da operação selecionada é: $resultado";
 
+    echo "<br><br>";
+
+    // SWITCH COM MÚLTIPLAS VARIÁVEIS
+
+    $ds = isset($_GET["ds"]) ? $_GET["ds"] : 0;
+
+    switch ($ds) {
+      case 2 :
+      case 3 :
+      case 4 :
+      case 5 :
+      case 6 :
+        echo "Dia de estudar";
+        break;
+      case 7:
+      case 8:
+        echo "Não precisa estudar";
+        break;
+
+      default:
+        echo "Dia da semana não informado";
+
+    }
+
      ?>
 
      <br><br>
